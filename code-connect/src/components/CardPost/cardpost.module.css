@@ -1,0 +1,54 @@
+.cardpost {
+  max-width: 500px;
+  max-height: 370px;
+  margin: 20px auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cardpost:hover {
+  transform: translateY(-5px);
+}
+
+.cardpost header {
+  width: 100%;
+}
+
+.cardpost section {
+  padding: 16px;
+  width: 100%;
+}
+
+.cardpost h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.cardpost p {
+  color: #666;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.cardpost footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 16px;
+  border-top: 1px solid #e0e0e0;
+  width: 100%;
+}
+
+.cardpost footer .Avatar {
+  margin-right: 8px;
+}
